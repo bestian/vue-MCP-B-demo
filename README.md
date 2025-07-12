@@ -5,6 +5,8 @@
 This demo showcases how to embed MCP-B in a Vue3 project. Through this project, you can learn how to use the MCP-B framework to build modern web applications and experience its powerful tool integration capabilities and intelligent agent system.
 
 
+The example code is located at `/src/App.vue`
+
 ## About MCP-B
 
 MCP-B is an innovative AI agent framework based on the Model Context Protocol (MCP), designed for building intelligent and scalable AI applications. It provides powerful tool integration capabilities, enabling developers to easily create AI agents with rich functionality.

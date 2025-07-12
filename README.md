@@ -1,6 +1,23 @@
 # vue-MCP-B-demo
 
-This template should help get you started developing with Vue 3 in Vite.
+## About This Demo
+
+This demo showcases how to embed MCP-B in a Vue3 project. Through this project, you can learn how to use the MCP-B framework to build modern web applications and experience its powerful tool integration capabilities and intelligent agent system.
+
+
+## About MCP-B
+
+MCP-B is an innovative AI agent framework based on the Model Context Protocol (MCP), designed for building intelligent and scalable AI applications. It provides powerful tool integration capabilities, enabling developers to easily create AI agents with rich functionality.
+
+### Key Features
+- **Tool Integration**: Seamless integration with various tools and APIs
+- **Scalability**: Modular architecture for easy extension and customization
+- **Intelligent Agents**: Smart agent system based on the MCP protocol
+- **Developer Friendly**: Complete development tools and documentation
+
+### Official Resources
+- [MCP-B Official Documentation](https://mcp-b.ai/blogs?showTodos=false&sortBy=created_at&sortOrder=desc) - View the latest official documentation and updates
+
 
 ## Recommended IDE Setup
 

@@ -1,3 +1,19 @@
+<script setup lang="ts">
+import { onMounted } from 'vue';
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const props = defineProps<{ server: any }>();
+
+onMounted(() => {
+  props.server.tool('about', 'About this demo', {}, async () => ({
+    content: [{ type: 'text', text: `This is a Vue.js-based MCP-B demonstration project that showcases how to build modern web applications using the MCP-B framework.` }]
+  }));
+});
+
+
+</script>
+
+
 <template>
   <div class="about">
     <div class="about-content">

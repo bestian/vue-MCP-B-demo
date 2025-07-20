@@ -31,14 +31,15 @@ export default defineComponent({
     }
 
 
+    const server = new McpServer({
+      name: 'my-app',
+      version: '1.0.0'
+    });
+
     onMounted(async () => {
       console.log('onMounted')
 
 
-      const server = new McpServer({
-        name: 'my-app',
-        version: '1.0.0'
-      });
 
       server.tool('sayHello', 'Says hello', {
         name: z.string()
@@ -86,7 +87,8 @@ export default defineComponent({
     return {
       count,
       addCount,
-      gotoAbout
+      gotoAbout,
+      server
     }
   }
 })
@@ -107,7 +109,7 @@ export default defineComponent({
     </div>
   </header>
 
-  <RouterView />
+  <RouterView :server="server" />
 </template>
 
 <style scoped>
